@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TOKEN = "7629694750:AAG6vET2cga29hi14V-9lh13ZJEPWSAkjDs"
 DATABASE = "cs_department.db"
 
 # Fetch all intents and responses from DB once
